@@ -287,6 +287,7 @@ let
           cardano-sl-util
           cardano-sl-x509
           cardano-wallet;
+          cardano-sl-wallet-tool
         inherit (self.haskellPackages)
           cardano-report-server; }
   # nix-tools setup
